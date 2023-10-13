@@ -1,3 +1,94 @@
+@font-face {
+  font-family: 'icons';
+  src: url('./assets/fonts/icons.woff');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  background: rgb(246, 248, 252)
+}
+.icons {
+  font-family: 'icons';
+  font-size: 128px;
+}
+
+.icons::before {
+  content: '\f130';
+}
+
+.pikachu::before {
+  content: '\f11f'; 
+}
+
+.pokeball::before {
+  content: '\f12a';
+}
+
+.d-pad::before {
+  content: '\f121'; 
+} 
+
+.cards::before {
+  content: '\f109';
+}
+
+.pokemontv::before {
+  content: '\f12c';
+}
+
+.event::before {
+  content: '\f112';
+}
+
+.news::before {
+  content: '\f138';
+}
+
+.weight::before {
+  content: '\f11b'; 
+}
+
+.male::before {
+  content: '\f122'; 
+}
+.female::before {
+  content: '\f115'; 
+}
+
+.eye-open::before {
+  content: '\f114'; 
+}
+
+.search::before {
+  content: '\f132'; 
+}
+
+.arrow-down::before {
+  content: '\f103'; 
+}
+
+.arrow-up::before {
+  content: '\f106'; 
+}
+
+.arrow::before {
+  content: '\f105'; 
+}
+
+.hearth::before {
+  content: '\f136'; 
+}
+
+.type::before {
+  content: '\f129';
+}
+.weakness::before {
+  content: '\f110'; 
+}
+
+.refresh::before {
+  content: '\f130';
+}
