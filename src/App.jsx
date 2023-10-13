@@ -1,6 +1,13 @@
+import Header from './components/Header'
+
 function App () {
   return (
-    <h1>React App</h1>
+    <>
+      <main className='flex justify-center mt-10'>
+        <Header />
+      </main>
+      <span className='absolute top-[-10rem] left-[-10rem] text-[40rem] leading-none icon-pokeball -z-20 text-gray-100' />
+    </>
   )
 }
 
