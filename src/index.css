@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
 @font-face {
   font-family: 'icons';
   src: url('./assets/fonts/icons.woff');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   background: rgb(246, 248, 252);
   font-family: 'open sans', sans-serif;
+}
+
+.normal, .poison, .psychic, .grass, .ground, .ice, .fire, .rock, .dragon, .water, .bug, .dark, .fighting, .ghost, .steel, .flying, .electric, .fairy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
 }

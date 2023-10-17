@@ -23,3 +23,7 @@ Currently, two official plugins are available:
   // useEffect(() => {
   //   getAll()
   // }, [])
+
+  if (type1 && type2 == 'rock') {
+    multipliyer = 4
+  }
