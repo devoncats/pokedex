@@ -19,8 +19,101 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem 1rem;
+  padding: 0.30rem 1rem;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.875rem;
 }
+
+.normal {
+  background: rgb(199, 197, 166);
+  color: rgb(121, 119, 88);
+}
+
+.poison {
+  background: rgb(194, 131, 193);
+  color: rgb(113, 50, 114);
+}
+
+.psychic {
+  background: rgb(250, 147, 178);
+  color: rgb(161, 58, 89);
+}
+
+.grass {
+  background: rgb(167, 220, 143);
+  color: rgb(76, 129, 52);
+}
+
+.ground {
+  background: rgb(235, 215, 158);
+  color: rgb(144, 124, 67);
+}
+
+.ice {
+  background: rgb(187, 231, 230);
+  color: rgb(106, 150, 149);
+}
+
+.fire {
+  background: rgb(246, 172, 122);
+  color: rgb(174, 101, 50);
+}
+
+.rock {
+  background: rgb(209, 193, 123);
+  color: rgb(122, 106, 36);
+}
+
+.dragon {
+  background: rgb(163, 125, 249);
+  color: rgb(81, 45, 169);
+}
+
+.water {
+  background: rgb(157, 184, 245);
+  color: rgb(86, 112, 174);
+}
+
+.bug {
+  background: rgb(198, 207, 109);
+  color: rgb(122, 131, 32);
+}
+
+.dark {
+  background: rgb(163, 146, 136);
+  color: rgb(86, 70, 59);
+}
+
+.fighting {
+  background: rgb(213, 121, 116);
+  color: rgb(137, 44, 39);
+}
+
+.ghost {
+  background: rgb(164, 146, 188);
+  color: rgb(80, 61, 104);
+}
+
+.steel {
+  background: rgb(209, 209, 223);
+  color: rgb(127, 127, 141);
+}
+
+.flying {
+  background: rgb(199, 184, 247);
+  color: rgb(117, 100, 163);
+}
+
+.electric {
+  background: rgb(247, 225, 121);
+  color: rgb(169, 145, 42);
+}
+
+.fairy {
+  background: rgb(242, 189, 202);
+  color: rgb(160, 103, 115);
+}
+

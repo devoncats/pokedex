@@ -1,4 +1,4 @@
-import CardSmall from '../layouts/CardSmall'
+import CardSmall from '../components/CardSmall'
 import response from '../assets/mocks/mocks.json'
 
 export function CardsSmall () {
