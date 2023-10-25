@@ -27,3 +27,9 @@ Currently, two official plugins are available:
   if (type1 && type2 == 'rock') {
     multipliyer = 4
   }
+
+  [order, setOrder] = useState('Ascending')
+  handleDisplayOrder => show the pokemons by order
+
+  <button onclick={handleDisplayOrder}>
+  
